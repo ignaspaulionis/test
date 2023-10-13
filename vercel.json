@@ -1,7 +1,7 @@
 {
     "functions": {
       "api/users.js": {
-        "runtime": "nodejs14.x"
+        "runtime": "vercel-node@18"
       }
     }
 } 
