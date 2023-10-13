@@ -9,6 +9,8 @@ app.use(express.json());
 app.get('/api/users', (req, res) => {
   // Read the JSON file and send it as a response
   const response = require('./response.json');
+  res.setHeader('Content-Type', 'text/html');
+  res.setHeader('Cache-Control', 's-max-age=1, stale-while-revalidate');
   res.json(response);
 });
 
