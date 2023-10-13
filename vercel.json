@@ -9,5 +9,4 @@
         "source": "/api/(.*)",
         "destination": "/api"
       }
-    }
-} 
+}
