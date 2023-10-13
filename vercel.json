@@ -1,13 +1,3 @@
 {
-    "functions": {
-      "api/users.js": {
-        "runtime": "vercel-node@18"
-      }
-    },
-    "rewrites": [
-      {
-        "source": "/api/(.*)",
-        "destination": "/api"
-      }
-    ]
+  "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }]
 }
